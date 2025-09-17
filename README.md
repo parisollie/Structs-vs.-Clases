@@ -30,7 +30,7 @@ explore more topics, such as memory management and multithreading.
  This is exactly the same as the advice for Swift access levels.Start with the least inclusive, most private access level, and only increase its capability as and when needed.
 
      Structs                                    Class
- ------ ------ ------ ------ ------
+ ------ ------ ------ ------ ------ --- ------ --------- ------ --------- ------ ------
  - Simpler                                   | - Has inheritance
  - Faster                                    | - Works with Objective-C code
  - Deep copies
