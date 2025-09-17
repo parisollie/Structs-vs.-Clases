@@ -29,13 +29,11 @@ explore more topics, such as memory management and multithreading.
  So in certain cases, you still need to rely on classes, but start with a struct and only go up if needed.
  This is exactly the same as the advice for Swift access levels.Start with the least inclusive, most private access level, and only increase its capability as and when needed.
 
-     Structs                                    Class
- ------ ------ ------ ------ ------ --- ------ --------- ------ --------- ------ ------
- - Simpler                                    * Has inheritance
-   
- - Faster                                     * Works with Objective-C code
-   
- - Deep copies
- - True inmutability
- - No memory leaks
- - Threadsafe
+| Structs                                    | Class                                      |
+|--------------------------------------------|--------------------------------------------|
+| - Simpler                                  | - Has inheritance                         |
+| - Faster                                   | - Works with Objective-C code             |
+| - Deep copies                              |                                            |
+| - True immutability                        |                                            |
+| - No memory leaks                          |                                            |
+| - Threadsafe                               |                                            |
