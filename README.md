@@ -31,8 +31,10 @@ explore more topics, such as memory management and multithreading.
 
      Structs                                    Class
  ------ ------ ------ ------ ------ --- ------ --------- ------ --------- ------ ------
- - Simpler                                   | - Has inheritance
- - Faster                                    | - Works with Objective-C code
+ - Simpler                                    - Has inheritance
+   
+ - Faster                                     - Works with Objective-C code
+   
  - Deep copies
  - True inmutability
  - No memory leaks
